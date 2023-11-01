@@ -50,6 +50,7 @@ class FlavorFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding?.apply {
+            var viewModel = sharedViewModel
             nextButton.setOnClickListener { goToNextScreen() }
         }
     }
